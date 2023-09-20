@@ -1,0 +1,9 @@
+table, td, th, caption{
+     border: solid 1px black;
+}
+table{
+    border-collapse: collapse;
+    width: 200px;
+    text-align: center;
+}
+
