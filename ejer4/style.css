@@ -3,7 +3,7 @@ table, td, th, caption{
 }
 table{
     border-collapse: collapse;
-    width: 200px;
+    width: 300px;
     text-align: center;
 }
 
