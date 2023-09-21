@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Validación de teléfono mediante a expresiones regulares:</h2>
+    <form>
+        <label for="numero"></label>
+        <input type="text" id="numero" name="numero" class="form-control" placeholder="Phone number"
+            pattern="(6|7)\d{8}" required />
+        <!-- Para que sea valido en numero de telefono tienes que empezar con 6 o 7 -->
+        <br>
+        <br>
+        <input type="submit" value="Submit" />
+    </form>
+
+</body>
+
+</html>

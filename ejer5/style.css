@@ -1,0 +1,11 @@
+#numero:not(:placeholder-shown):invalid{
+    background-color: red;
+    box-shadow: 0 0 0 2px red;
+}
+
+#numero:valid{
+    background-color: greenyellow;
+    box-shadow: 0 0 0 2px green;
+}
+
+
